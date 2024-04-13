@@ -12,7 +12,7 @@ from sklearn.metrics.pairwise import linear_kernel
 # data loading
 @st.cache_data
 def read_book_data():
-    return pd.read_csv('Downloads/books_cleaned.csv')
+    return pd.read_csv('books_cleaned.csv')
 
 
 @st.cache_data
